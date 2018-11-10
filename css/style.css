@@ -1,0 +1,946 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Code-Pro", sans-serif;
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-family: "Code-Pro-LC", sans-serif;
+}
+
+ul, li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    padding: 0;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-logo {
+    text-align: center;
+}
+
+.header-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-header {
+    background: #404040;
+    color: #ffffff;
+    margin: 0;
+}
+
+.main-navigation {
+    padding-top: 35px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .main-navigation {
+        padding-top: 25px;
+    }
+}
+
+.site-navigation__item a {
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 0.75px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .site-navigation__item a {
+        font-family: "Code-Pro", sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .site-navigation {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    ul.site-navigation > li.site-navigation__item:not(:first-child){
+        padding-top: 10px;
+    }
+}
+
+ul.site-navigation > li.site-navigation__item:first-child {
+    padding-left: 25px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    ul.site-navigation > li.site-navigation__item:first-child {
+        padding-left: 0px;
+    }
+}
+
+.site-navigation__item {
+    padding-right: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .site-navigation__item {
+        padding-right: 23px;
+    }
+}
+
+ul.site-navigation > li.site-navigation__item:last-child {
+    padding-right: 25px;
+}
+
+.main-call {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.call_back > p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.call_back_text {
+    font-family: "Code-Pro-LC", sans-serif;
+    font-size: 16px;
+    color: #707070;
+    letter-spacing: 0.75px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .call_back_text {
+        font-family: "Code-Pro-LC", sans-serif;
+        font-size: 14px;
+        color: #707070;
+        letter-spacing: 0.75px;
+    }
+}
+
+.tel-attention {
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-size: 35px;
+    color: #feca39;
+    text-shadow: 2.1px 2.1px 1px #000000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .tel-attention {
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-size: 22px;
+        color: #feca39;
+        text-shadow: 2.1px 2.1px 1px #000000;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .tel-attention {
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-size: 30px;
+        color: #feca39;
+        text-shadow: 2.1px 2.1px 1px #000000;
+        vertical-align: middle;
+        text-align: center;
+    }
+}
+
+.call-back {
+    padding-bottom: 9px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .call_back {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+.logo {
+    padding: 0;
+}
+
+h1 {
+    text-indent: -9999px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2.block-title {
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-size: 40px;
+    color: #404040;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    h2.block-title {
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-size: 35px;
+        color: #404040;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    h2.block-title {
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-size: 35px;
+        color: #404040;
+    }
+}
+
+.main-services {
+    padding-bottom: 45px;
+}
+
+h3 {
+    font-family: "Code-Pro", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    white-space: pre-line;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    h3 {
+        font-family: "Code-Pro", sans-serif;
+        font-size: 25px;
+        line-height: 25px;
+        color: #000000;
+        white-space: pre-line;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    h3 {
+        font-family: "Code-Pro", sans-serif;
+        font-size: 25px;
+        line-height: 25px;
+        color: #000000;
+        white-space: pre-line;
+        text-align: center;
+    }
+}
+
+.services-list__service-item > img {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .services-list__service-item > img {
+        text-align: center;
+        padding-bottom: 15px;
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .services-list__service-item > img {
+        text-align: center;
+        padding-bottom: 15px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.services-list {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+h2.visually-hidden {
+    height: 0px;
+    text-indent: -9999px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#discount {
+    background-color: #404040;
+}
+
+.text-discount {
+    background: #404040;
+    text-align: center;
+}
+
+div.text-wow-discount {
+    padding-top: 7.5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    div.text-wow-discount {
+      padding-top: 5%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    div.text-wow-discount {
+        padding-top: 6%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .wow-discount img {
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .wow-discount img {
+        max-width: 85%;
+        height: auto;
+    }
+}
+
+.discount-text {
+    font-family: "Code-Pro", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .discount-text {
+        font-family: "Code-Pro", sans-serif;
+        font-size: 35px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .discount-text {
+        font-family: "Code-Pro", sans-serif;
+        font-size: 35px;
+        color: #ffffff;
+    }
+}
+
+.text-attention {
+    font-size: 50px;
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-weight: bold;
+    color: #feca39;
+    text-shadow: 2.1px 2.1px 1px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .text-attention {
+        font-size: 40px;
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-weight: bold;
+        color: #feca39;
+        text-shadow: 2.1px 2.1px 1px rgba(0, 0, 0, 0.75);
+    }
+}
+
+
+img.discount-img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.discount-img {
+    animation: tada 3s infinite;
+}
+
+@-webkit-keyframes tada {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    10%, 20% {
+        -webkit-transform: scale(0.9) rotate(-3deg);
+        transform: scale(0.9) rotate(-3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale(1.01) rotate(3deg);
+        transform: scale(1.01) rotate(3deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: scale(1.01) rotate(-3deg);
+        transform: scale(1.01) rotate(-3deg);
+    }
+
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
+    }
+}
+
+@keyframes tada {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    10%, 20% {
+        -webkit-transform: scale(0.9) rotate(-3deg);
+        -ms-transform: scale(0.9) rotate(-3deg);
+        transform: scale(0.9) rotate(-3deg);
+    }
+
+    30%, 50%, 70%, 90% {
+        -webkit-transform: scale(1.01) rotate(3deg);
+        -ms-transform: scale(1.01) rotate(3deg);
+        transform: scale(1.01) rotate(3deg);
+    }
+
+    40%, 60%, 80% {
+        -webkit-transform: scale(1.01) rotate(-3deg);
+        -ms-transform: scale(1.01) rotate(-3deg);
+        transform: scale(1.01) rotate(-3deg);
+    }
+
+    100% {
+        -webkit-transform: scale(1) rotate(0);
+        -ms-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
+    }
+}
+
+.tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+
+.advantage-list {
+    text-align: center;
+}
+
+div.advantage-list__advantage-item > img {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    div.advantage-list__advantage-item > img {
+        text-align: center;
+        padding-bottom: 10px;
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    div.advantage-list__advantage-item > img {
+        text-align: center;
+        padding-bottom: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.main-advantage {
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+
+div.advantage {
+    padding-bottom: 25px;
+}
+
+
+.main-footer {
+    margin-top: 55px;
+    background: #404040;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .main-footer {
+        margin-top: 30px;
+        background: #404040;
+        color: #ffffff;
+    }
+}
+
+.constantly-text {
+    font-family: "Code-Pro", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .constantly-text {
+        font-family: "Code-Pro", sans-serif;
+        font-size: 25px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .constantly-text {
+        font-family: "Code-Pro", sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+    }
+}
+
+.constantly-attention {
+    font-size: 40px;
+    font-family: "Code-Pro-Bold", sans-serif;
+    color: #feca39;
+    text-shadow: 2.1px 2.1px 1px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .constantly-attention {
+        font-size: 30px;
+        font-family: "Code-Pro-Bold", sans-serif;
+        color: #feca39;
+        text-shadow: 2.1px 2.1px 1px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .constantly-attention {
+        font-size: 35px;
+        font-family: "Code-Pro-Bold", sans-serif;
+        color: #feca39;
+        text-shadow: 2.1px 2.1px 1px rgba(0, 0, 0, 0.75);
+    }
+}
+
+.time-text {
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+.footer-call {
+    padding-top: 15px;
+}
+
+.call-list {
+    justify-content: space-around;
+}
+
+
+.call-list__tel a {
+    text-decoration: none;
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-shadow: 1.4px 1.4px 1px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .call-list__tel a {
+        text-decoration: none;
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-size: 23px;
+        color: #ffffff;
+        text-shadow: 1.4px 1.4px 1px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .call-list__tel a {
+        text-decoration: none;
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-size: 30px;
+        color: #ffffff;
+        text-shadow: 1.4px 1.4px 1px rgba(0, 0, 0, 0.75);
+    }
+}
+
+.social-list {
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .social-list {
+        padding-left: 0px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .social-list {
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+}
+
+.social-list__item {
+    font-family: "Code-Pro-LC", sans-serif;
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .social-list__item {
+        font-family: "Code-Pro-LC", sans-serif;
+        font-size: 14px;
+        color: #707070;
+        text-align: center;
+        padding-right: 5px;
+    }
+}
+
+
+li.social-list__item > img {
+    opacity: 0.85;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    li.social-list__item > img {
+        max-width: 50%;
+        height: auto;
+        opacity: 0.85;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    li.social-list__item > img {
+        max-width: 35%;
+        height: auto;
+        opacity: 0.85;
+    }
+}
+
+.clock {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1.5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .clock img {
+        max-width: 70%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .clock img {
+        max-width: 60%;
+        height: auto;
+    }
+}
+
+.main-tafiffs {
+    padding-bottom: 45px;
+}
+
+.tariffs-list__tariffs-item {
+    width: 270px;
+    height: 400px;
+    background: #fff;
+    text-align: center;
+    padding-top: 37.5%;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 4px;
+    -moz-background-clip: padding;
+    border-radius: 4px;
+    background-clip: padding-box;
+    position: relative;
+    background: url("../images/border.jpg");
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .tariffs-list__tariffs-item {
+        width: 270px;
+        height: 400px;
+        background: #fff;
+        text-align: center;
+        padding-top: 25%;
+        margin-bottom: 10px;
+        font-size: 14px;
+        -webkit-border-radius: 4px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 4px;
+        -moz-background-clip: padding;
+        border-radius: 4px;
+        background-clip: padding-box;
+        position: relative;
+        background: url("../images/border.jpg");
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .tariffs-list__tariffs-item {
+        width: 240px;
+        height: 290px;
+        background: #fff;
+        text-align: center;
+        padding-top: 10%;
+        margin-bottom: 10px;
+        font-size: 14px;
+        -webkit-border-radius: 4px;
+        -webkit-background-clip: padding-box;
+        -moz-border-radius: 4px;
+        -moz-background-clip: padding;
+        border-radius: 4px;
+        background-clip: padding-box;
+        position: relative;
+    }
+}
+
+
+.front img {
+    padding-bottom: 10%;
+}
+
+.tariffs-price {
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-size: 50px;
+    color: #000000;
+}
+
+.tariffs-grn {
+    font-family: "Code-Pro", sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+.tariffs-km {
+    font-family: "Code-Pro", sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+li.call-list__tel:hover {
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+/*Service block animated*/
+
+.card-service {
+    position: relative;
+    transform: translate(0% 0%);
+    overflow: hidden;
+    border: none;
+    width: 275px;
+    height: 350px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .card-service {
+        position: relative;
+        transform: translate(0% 0%);
+        overflow: hidden;
+        border: none;
+        width: 250px;
+        height: 310px;
+    }
+}
+
+.card-service .imgBx,
+.card-service .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.card-service .imgBx {
+    top: 0;
+    left: 0;
+}
+
+.card-service:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+
+.card-service .details {
+    background: #404040;
+    top: 0;
+    left: 100%;
+}
+
+.card-service:hover .details {
+    top: 0;
+    left: 100%;
+}
+
+.card-service .details h4 {
+    color: #feca39;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    text-shadow: 2.1px 2.1px 1px rgba(0, 0, 0, 0.75)
+}
+
+.card-service .details p {
+    margin: 0;
+    padding-bottom: 10px;
+    color: #a1a1a1;
+    white-space: pre-line;
+}
+
+.card-service .details ul {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.card-service .details ul li > img {
+    padding-right: 5px;
+}
+
+/*Tariffs block animated*/
+
+/* весь контейнер поддерживает перспективу */
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+}
+/* переверните сторону при проведении мышью */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 270px;
+    height: 400px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .flip-container, .front, .back {
+        width: 240px;
+        height: 290px;
+    }
+}
+
+/* здесь находится скорость перевертывания */
+.flipper {
+    -webkit-transition: 0.5s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.5s;
+    -o-transform-style: preserve-3d;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* скройте обратную сторону во время переворота */
+.front, .back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* лицевая сторона размещена над обратной */
+.front {
+    z-index: 2;
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
+/* обратная, изначально скрытая сторона */
+.back {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.way {
+    font-family: "Code-Pro-Bold", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .way {
+        font-family: "Code-Pro-Bold", sans-serif;
+        font-size: 18px;
+        color: #000000;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.way-price {
+    font-family: "Code-Pro-LC", sans-serif;
+    font-size: 14px;
+    color: #404040;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px){
+    .way-price {
+        font-family: "Code-Pro-LC", sans-serif;
+        font-size: 12px;
+        color: #404040;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+
+
