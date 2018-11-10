@@ -1,5 +1,5 @@
 <?php
-
+require_once($_SERVER['DOCUMENT_ROOT'] . '/smartlid/php/phpmailer/phpmailer.php');
     
     // Основные настройки для отправки письма
      
@@ -27,22 +27,23 @@
 
 
 
+
     // ** Раскомментируйте (уберите слеши) и заполните данные, как в примере выше, а также не забудьте раскоментировать строку с require_once...
     
-    // const HOST = '';
-    // const LOGIN = '';
-    // const PASS = '';
-    // const PORT = '';
-    // require_once($_SERVER['DOCUMENT_ROOT'] . '/smartlid/php/phpmailer/smtp.php');
+//const HOST = 'ssl://smtp.gmail.com';
+//const LOGIN = 'expresstaxi.in@gmail.com';
+//const PASS = '3016j105';
+//const PORT = '465';
+//require_once($_SERVER['DOCUMENT_ROOT'] . '/smartlid/php/phpmailer/smtp.php');
    
-    //const SENDER = 'send.tocatcher@gmail.com';
+    const SENDER = 'admin@express-taxi.in.ua';
     const CATCHER = 'expresstaxi.in@gmail.com';
     // const CATCHER2 = 'catcher2@list.ru';
     const SUBJECT = 'Заявка с сайта';
     const CHARSET = 'UTF-8';
 
-    $nameIsRequired = true;
-    $telIsRequired = true;
-    $emailIsRequired = false;
+$nameIsRequired = false;
+$telIsRequired = true;
+$emailIsRequired = false;
     // $textIsRequired = false;
     
